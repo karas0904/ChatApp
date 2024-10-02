@@ -36,7 +36,7 @@ class EmailPage extends StatelessWidget {
                 },
                 icon: Padding(
                   padding: const EdgeInsets.only(
-                      right: 16.0), // Add space between icon and text
+                      right: .0), // Add space between icon and text
                   child: Image.asset(
                     'assets/images/google.png', // Ensure the Google logo image is added to your assets folder
                     height: mediaQuery.size.height *

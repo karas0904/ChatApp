@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
-import 'screens.dart/Auth/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'firebase_options.dart';
+import 'screens.dart/splash.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   runApp(const MyApp());
 }
 
@@ -27,7 +28,7 @@ class MyApp extends StatelessWidget {
               color: Color.fromARGB(255, 255, 255, 255),
               fontWeight: FontWeight.w600),
         )),
-        home: LoginPage());
+        home: Splashscreen());
   }
 }
 

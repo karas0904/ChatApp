@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-
-import 'screens.dart/home.dart';
+import 'screens.dart/Auth/login.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'firebase_options.dart';
 
 void main() {
   runApp(const MyApp());
@@ -26,6 +27,12 @@ class MyApp extends StatelessWidget {
               color: Color.fromARGB(255, 255, 255, 255),
               fontWeight: FontWeight.w600),
         )),
-        home: HoneScreen());
+        home: LoginPage());
   }
+}
+
+_intializeFirebase() async {
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
 }

@@ -1,5 +1,5 @@
+import 'package:chapapp/screens.dart/Auth/login.dart';
 import 'package:flutter/material.dart';
-import 'home.dart';
 
 class Splashscreen extends StatefulWidget {
   const Splashscreen({super.key});
@@ -16,7 +16,7 @@ class _SplashscreenState extends State<Splashscreen> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-            builder: (_) => const HoneScreen()), // Navigate to HomeScreen
+            builder: (_) => const LoginPage()), // Navigate to HomeScreen
       );
     });
   }
@@ -31,7 +31,11 @@ class _SplashscreenState extends State<Splashscreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             // Replace Lottie animation with the chat icon (use the same icon as in the LoginPage)
-            Icon(Icons.chat_bubble_outline),
+            Icon(
+              Icons.chat_bubble_outline,
+              size: 100,
+              color: Colors.blue,
+            ),
             const SizedBox(height: 20), // Space between logo and text
             const Text(
               'ChitChat', // Display "ChitChat"

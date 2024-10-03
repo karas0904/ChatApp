@@ -12,7 +12,20 @@
           "package_name": "com.example.chapapp"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "152837607614-ib1sbhkd4ko55s9e0cdjkeopjqo0ucpo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chapapp",
+            "certificate_hash": "a22c9b7d91047d8103208e5dd3a19d05a8953c54"
+          }
+        },
+        {
+          "client_id": "152837607614-llsm58c6q61b5hildv32l1fke8r0bq7e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyBSfR6FH_-JwXuHpTri_1eQURLzDWaC2ZU"
@@ -20,7 +33,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "152837607614-llsm58c6q61b5hildv32l1fke8r0bq7e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "152837607614-94ojvdpfm9lkrqr0b3kuk0ovtv8l56ev.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.chapapp"
+              }
+            }
+          ]
         }
       }
     }

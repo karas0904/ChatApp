@@ -63,6 +63,9 @@ class DefaultFirebaseOptions {
     messagingSenderId: '152837607614',
     projectId: 'chitchat-79eb8',
     storageBucket: 'chitchat-79eb8.appspot.com',
+    androidClientId: '152837607614-ib1sbhkd4ko55s9e0cdjkeopjqo0ucpo.apps.googleusercontent.com',
+    iosClientId: '152837607614-94ojvdpfm9lkrqr0b3kuk0ovtv8l56ev.apps.googleusercontent.com',
     iosBundleId: 'com.example.chapapp',
   );
+
 }
